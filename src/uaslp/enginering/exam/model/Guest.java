@@ -7,7 +7,6 @@ public class Guest {
     private String phoneNumber;
 
     public Guest() {
-
     }
 
     /** Setter of phone number **/
@@ -29,5 +28,9 @@ public class Guest {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 }

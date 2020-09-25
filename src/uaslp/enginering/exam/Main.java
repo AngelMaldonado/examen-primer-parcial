@@ -65,7 +65,7 @@ public class Main {
         System.out.println();
         System.out.println("Room statuses");
         for (Room room : rooms) {
-            System.out.println(room.getNumber() + " - " + room.getStatus());
+            System.out.println(room.getRoomNumber() + " - " + room.getRoomStatus());
         }
         System.out.println("---------------------------------------------------------------------");
     }
